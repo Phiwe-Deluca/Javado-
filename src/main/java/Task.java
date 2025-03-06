@@ -1,3 +1,18 @@
+// iteration 3
 public class Task {
-//    leave empty this is for iteration 3
+    private String description;
+    public Task(String description) {
+        this.description = description;
+    }
+    public String getDescription() {
+        return description;
+    }
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    @Override
+    public String toString() {
+        return description;
+    }
 }
