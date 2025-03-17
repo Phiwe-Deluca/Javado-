@@ -130,9 +130,5 @@ public class TaskManager {
                     taskManager.exit(scanner);
                     break;
 
-                default:
-                    System.out.println("Invalid choice, please try again.");
-            }
-        }
-    }
+
 }
